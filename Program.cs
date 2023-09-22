@@ -1,9 +1,13 @@
 using InduMovel.Context;
+using InduMovel.Repositories;
+using InduMovel.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddTransient<ICategoriaRepository,CategoriaRepository>();
+builder.Services.AddTransient<IMovelRepository, MovelRepository>();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaulConnection")));
 builder.Services.AddControllersWithViews();
 
