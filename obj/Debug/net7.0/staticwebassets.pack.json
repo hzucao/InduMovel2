@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\imagens\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\Movel1.jpg",
+      "PackagePath": "staticwebassets\\imagens\\Movel1.jpg"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\Movel2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\Movel2.jpg"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\Movel3.jpg",
+      "PackagePath": "staticwebassets\\imagens\\Movel3.jpg"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\remover.png",
+      "PackagePath": "staticwebassets\\imagens\\remover.png"
+    },
+    {
       "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

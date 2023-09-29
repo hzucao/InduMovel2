@@ -1,0 +1,13 @@
+@model InduMovel.ViewModel.MovelListViewModel
+@{
+    ViewData["Title"] = "Moveis";
+}
+<h1>@Model.CategoriaAtual</h1>
+<div class="container">
+    <div class="row">
+        @foreach (var movel in Model.Moveis)
+        {
+            <partial name="_Card" for="@movel"></partial>
+        }
+    </div>
+</div>

@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using InduMovel.Context;
 using InduMovel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InduMovel.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin")]
     public class AdminCategoriaController : Controller
     {
         private readonly AppDbContext _context;

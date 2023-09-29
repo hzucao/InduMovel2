@@ -280,3 +280,9 @@ C:\dev-ata\cs\InduMovel\obj\Debug\net7.0\InduMovel.pdb
 C:\dev-ata\cs\InduMovel\obj\Debug\net7.0\InduMovel.genruntimeconfig.cache
 C:\dev-ata\cs\InduMovel\obj\Debug\net7.0\ref\InduMovel.dll
 C:\dev-ata\cs\InduMovel\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\dev-ata\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
