@@ -1,0 +1,50 @@
+@model InduMovel.ViewModel.PedidoMoveisViewModel
+@{
+    ViewData["Title"] = "PedidoMoveis";
+    decimal totalPedido = 0;
+}
+<h1>Lanches do Pedido</h1>
+<hr />
+<h3>Pedido : @Html.DisplayFor(model => @Model.Pedidos.PedidoId)</h3>
+<h3>Cliente : @Html.DisplayFor(model => @Model.Pedidos.Nome)</h3>
+<h3>Data : @Html.DisplayFor(model =>
+    @Model.Pedidos.PedidoEnviado)</h3>
+<h3>Entrega : @Html.DisplayFor(model =>
+    @Model.Pedidos.PedidoEnviadoEm)</h3>
+<table class="table">
+    @foreach (var item in @Model.Pedidos.PedidoMoveis)
+    {
+        totalPedido += (Convert.ToDecimal(@item.Movel.Valor) *
+        @item.Quantidade);
+        <tr>
+            <td align="right">
+                <h3>@Html.DisplayFor(modelItem => item.Movel.Nome)</h3>
+            </td>
+            <td align="right">
+                <img src="@item.Movel.ImagemUrl" class="img-fluid" height="100" width="100">
+            </td>
+            <td align="right">
+                <h3>@string.Format("{0:C}", item.Movel.Valor)</h3>
+            </td>
+            <td align="right">
+                <h3>(@Html.DisplayFor(modelItem => item.Quantidade))</h3>
+            </td>
+            <td>
+                <a asp-controller="AdminPedidoMovel" asp-action="Edit" asp-route-id="@item.PedidoMovelId">Editar</a>
+
+                <a asp-controller="AdminPedidoMovel" asp-action="Delete" asp-route-id="@item.PedidoMovelId">Deletar</a>
+
+            </td>
+        </tr>
+    }
+    <tr>
+        <td colspan="2">&nbsp;</td>
+        <td align="right">
+            <h3>Total do Pedido : @string.Format("{0:C}", @totalPedido)</h3>
+        </td>
+    </tr>
+</table>
+<a asp-action="Index" class="btn btn-outline-info">Retornar</a>
+
+<a asp-controller="AdminPedidoMovel" asp-action="Create" asp-route-pedidoId="@Model.Pedidos.PedidoId"
+    class="btn btn-outline-info">Adicionar mais itens</a>

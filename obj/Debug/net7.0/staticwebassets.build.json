@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dgX2xYl5mzoniB361UUm1JSnGoHR2gVO6IVvbvLzCDs=",
+  "Hash": "Cs/c2NLOxT3JY7jMqqMDX/0y6Db4htE0GtEDqE/cV44=",
   "Source": "InduMovel",
   "BasePath": "_content/InduMovel",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\Full-Cart-icon.png"
+    },
+    {
+      "Identity": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\item\\963a64b3-f5c1-44fc-9f07-88c882ed50f6..jpg",
+      "SourceId": "InduMovel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\",
+      "BasePath": "_content/InduMovel",
+      "RelativePath": "imagens/item/963a64b3-f5c1-44fc-9f07-88c882ed50f6..jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\item\\963a64b3-f5c1-44fc-9f07-88c882ed50f6..jpg"
+    },
+    {
+      "Identity": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\item\\af9ab85c-9dc6-410e-8fa5-c3db2e8d5f3e..jpg",
+      "SourceId": "InduMovel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\",
+      "BasePath": "_content/InduMovel",
+      "RelativePath": "imagens/item/af9ab85c-9dc6-410e-8fa5-c3db2e8d5f3e..jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\item\\af9ab85c-9dc6-410e-8fa5-c3db2e8d5f3e..jpg"
     },
     {
       "Identity": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\Movel1.jpg",
@@ -1154,6 +1188,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\xml\\Pedido.xml",
+      "SourceId": "InduMovel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\",
+      "BasePath": "_content/InduMovel",
+      "RelativePath": "xml/Pedido.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\xml\\Pedido.xml"
+    },
+    {
+      "Identity": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\xml\\Pedidos.xml",
+      "SourceId": "InduMovel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\",
+      "BasePath": "_content/InduMovel",
+      "RelativePath": "xml/Pedidos.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\xml\\Pedidos.xml"
     }
   ]
 }

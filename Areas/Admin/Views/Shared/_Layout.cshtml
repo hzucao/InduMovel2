@@ -36,6 +36,23 @@
                         <li>
                             @await Html.PartialAsync("_Login")
                         </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminRelatorioVendas"
+                                asp-action="Index">Relatório vendas</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminXml"
+                                asp-action="Index">Exportar xml</a>
+
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminPedido"
+                                asp-action="Index">Pedidos</a>
+
+                        </li>
                     </ul>
                 </div>
             </div>

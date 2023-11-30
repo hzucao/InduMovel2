@@ -11,6 +11,8 @@ namespace InduMovel.Context
         }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Movel> Moveis { get; set; }
-        public DbSet<CarrinhoItem> CarrinhoItens{get;set;}
+        public DbSet<CarrinhoItem> CarrinhoItens { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<PedidoMovel> PedidoMoveis { get; set; }
     }
 }

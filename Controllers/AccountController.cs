@@ -2,6 +2,7 @@ using System.Drawing;
 using InduMovel.Models;
 using InduMovel.ViewModel;
 using Microsoft.AspNetCore.Identity;
+
 using Microsoft.AspNetCore.Mvc;
 namespace InduMovel.Controllers
 {

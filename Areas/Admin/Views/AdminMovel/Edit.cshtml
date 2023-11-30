@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="MovelId" />
             <div class="form-group">
@@ -29,15 +29,24 @@
                 <span asp-validation-for="Cor" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImagemUrl" class="control-label"></label>
-                <input asp-for="ImagemUrl" class="form-control" />
-                <span asp-validation-for="ImagemUrl" class="text-danger"></span>
+                <label for="ImagemAtual">Imagem Atual</label>
+                <img src="@Model.ImagemUrl" alt="Imagem do Produto Atual" asp-append-version="true">
+                <input type="hidden" name="ImagemUrl" value="@Model.ImagemUrl">
             </div>
             <div class="form-group">
-                <label asp-for="ImagemPequena" class="control-label"></label>
-                <input asp-for="ImagemPequena" class="form-control" />
-                <span asp-validation-for="ImagemPequena" class="text-danger"></span>
+                <label for="Imagem">Nova Imagem:</label>
+                <input type="file" class="form-control" name="Imagem" id="Imagem">
             </div>
+            <div class="form-group">
+                <label for="ImagemAtualc">Imagem Atual curta</label>
+                <img src="@Model.ImagemPequena" alt="Imagem do Produto Atual" asp-append-version="true">
+                <input type="hidden" name="ImagemPequena" value="@Model.ImagemPequena">
+            </div>
+            <div class="form-group">
+                <label for="Imagem">Nova Imagem Pequena:</label>
+                <input type="file" class="form-control" name="Imagemcurta" id="Imagemcurta">
+            </div>
+
             <div class="form-group">
                 <label asp-for="Valor" class="control-label"></label>
                 <input asp-for="Valor" class="form-control" />
@@ -45,7 +54,8 @@
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="EmProducao" /> @Html.DisplayNameFor(model => model.EmProducao)
+                    <input class="form-check-input" asp-for="EmProducao" /> @Html.DisplayNameFor(model =>
+                    model.EmProducao)
                 </label>
             </div>
             <div class="form-group form-check">
@@ -68,4 +78,3 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-

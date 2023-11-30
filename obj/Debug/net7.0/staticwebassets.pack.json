@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\imagens\\Movel3.jpg"
     },
     {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\item\\963a64b3-f5c1-44fc-9f07-88c882ed50f6..jpg",
+      "PackagePath": "staticwebassets\\imagens\\item\\963a64b3-f5c1-44fc-9f07-88c882ed50f6..jpg"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\item\\af9ab85c-9dc6-410e-8fa5-c3db2e8d5f3e..jpg",
+      "PackagePath": "staticwebassets\\imagens\\item\\af9ab85c-9dc6-410e-8fa5-c3db2e8d5f3e..jpg"
+    },
+    {
       "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\imagens\\remover.png",
       "PackagePath": "staticwebassets\\imagens\\remover.png"
     },
@@ -263,6 +271,14 @@
     {
       "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\xml\\Pedido.xml",
+      "PackagePath": "staticwebassets\\xml\\Pedido.xml"
+    },
+    {
+      "Id": "C:\\dev-ata\\cs\\InduMovel\\wwwroot\\xml\\Pedidos.xml",
+      "PackagePath": "staticwebassets\\xml\\Pedidos.xml"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.InduMovel.Microsoft.AspNetCore.StaticWebAssets.props",

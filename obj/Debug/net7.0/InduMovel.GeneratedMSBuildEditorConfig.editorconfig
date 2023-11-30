@@ -12,7 +12,7 @@ build_property.RootNamespace = InduMovel
 build_property.ProjectDir = C:\dev-ata\cs\InduMovel\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\dev-ata\cs\InduMovel
 build_property._RazorSourceGeneratorDebug = 
 
@@ -54,6 +54,70 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminMovel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Nb3ZlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedidoMovel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9Nb3ZlbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedidoMovel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9Nb3ZlbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedidoMovel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9Nb3ZlbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedidoMovel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9Nb3ZlbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedidoMovel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9Nb3ZlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminPedido/PedidoMoveis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9cUGVkaWRvTW92ZWlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminRelatorioVendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminRelatorioVendas/Relatorio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcUmVsYXRvcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminXml/GerarXml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5YbWxcR2VyYXJYbWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminXml/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5YbWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Areas/Admin/Views/AdminXml/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5YbWxcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev-ata/cs/InduMovel/Areas/Admin/Views/Admin/Index.cshtml]
@@ -106,6 +170,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/dev-ata/cs/InduMovel/Views/Movel/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZWxcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Views/Pedido/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev-ata/cs/InduMovel/Views/Pedido/CheckoutCompleto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev-ata/cs/InduMovel/Views/Shared/Components/CarrinhoResumo/Default.cshtml]

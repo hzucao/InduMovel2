@@ -100,6 +100,100 @@ namespace InduMovel.Migrations
                     b.ToTable("Moveis");
                 });
 
+            modelBuilder.Entity("InduMovel.Models.Pedido", b =>
+                {
+                    b.Property<int>("PedidoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Bairro")
+                        .HasMaxLength(30)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Cep")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Cidade")
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Endereco1")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Endereco2")
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Estado")
+                        .HasMaxLength(10)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Numero")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("PedidoEnviado")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("PedidoEnviadoEm")
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("PedidoTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasMaxLength(25)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("TotalItensPedido")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("PedidoId");
+
+                    b.ToTable("Pedidos");
+                });
+
+            modelBuilder.Entity("InduMovel.Models.PedidoMovel", b =>
+                {
+                    b.Property<int>("PedidoMovelId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("MovelId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("PedidoId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("PedidoMovelId");
+
+                    b.HasIndex("MovelId");
+
+                    b.HasIndex("PedidoId");
+
+                    b.ToTable("PedidoMoveis");
+                });
+
             modelBuilder.Entity("InduMovel.Models.UserAccount", b =>
                 {
                     b.Property<string>("Id")
@@ -333,6 +427,25 @@ namespace InduMovel.Migrations
                     b.Navigation("Categoria");
                 });
 
+            modelBuilder.Entity("InduMovel.Models.PedidoMovel", b =>
+                {
+                    b.HasOne("InduMovel.Models.Movel", "Movel")
+                        .WithMany()
+                        .HasForeignKey("MovelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InduMovel.Models.Pedido", "Pedido")
+                        .WithMany("PedidoMoveis")
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Movel");
+
+                    b.Navigation("Pedido");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -387,6 +500,11 @@ namespace InduMovel.Migrations
             modelBuilder.Entity("InduMovel.Models.Categoria", b =>
                 {
                     b.Navigation("Moveis");
+                });
+
+            modelBuilder.Entity("InduMovel.Models.Pedido", b =>
+                {
+                    b.Navigation("PedidoMoveis");
                 });
 #pragma warning restore 612, 618
         }

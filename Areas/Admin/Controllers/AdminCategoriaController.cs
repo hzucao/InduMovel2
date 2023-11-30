@@ -25,7 +25,7 @@ namespace InduMovel.Areas.Admin.Controllers
         // GET: Admin/AdminCategoria
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Categorias.ToListAsync());
+              return  View(await _context.Categorias.OrderBy(p => p.Nome).ToListAsync());
         }
 
         // GET: Admin/AdminCategoria/Details/5
@@ -149,10 +149,18 @@ namespace InduMovel.Areas.Admin.Controllers
             var categoria = await _context.Categorias.FindAsync(id);
             if (categoria != null)
             {
-                _context.Categorias.Remove(categoria);
+                try{
+                    _context.Categorias.Remove(categoria);
+                    await _context.SaveChangesAsync();
+                } catch(DbUpdateException ex){
+                    if(ex.InnerException.ToString().Contains("FOREIGN KEY")){
+                        ViewData["Erro"] ="Essa categoria não pode ser deletada pois está sendo utilizada em um item";
+                        return View();
+                    }
+                }
             }
             
-            await _context.SaveChangesAsync();
+            
             return RedirectToAction(nameof(Index));
         }
 
